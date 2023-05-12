@@ -11,6 +11,7 @@ public class Main {
         myEmployee.add("Bernard");
         myEmployee.add("Harry");
         myEmployee.add("Donna");
-        System.out.println(myEmployee.contains("Santa"));
+        System.out.println("I have employee by name Santa: " +myEmployee.contains("Santa"));
+        System.out.println("I have employee by name Harry: " +myEmployee.contains("Harry"));
     }
 }
